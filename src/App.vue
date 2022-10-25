@@ -1,12 +1,10 @@
 <script>
 import AppHeader from "@/components/AppHeader.vue";
 
-
 export default {
   components: {
     AppHeader,
   },
-
 };
 </script>
 
@@ -15,9 +13,8 @@ export default {
     <AppHeader />
 
     <div class="container mt-3">
-      <router-view/>
+      <router-view />
     </div>
-
   </div>
 </template>
 
@@ -26,5 +23,4 @@ export default {
   max-width: 400px;
   margin: auto;
 }
-
 </style>
